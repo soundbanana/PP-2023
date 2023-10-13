@@ -8,11 +8,16 @@ int main(int argc, char *argv[])
   int i;
   
 for(i=0; i<10000; i++)
-{ x[i]=1;
+{ 
+    x[i]=1;
 }  
+
 #pragma omp parallel for shared(x),reduction(+:sum)
+
 for(i=0; i<10000; i++)
 sum += x[i];
-    std::cout << "Sum: " << sum << std::endl;
-//return 0;
+
+std::cout << "Sum: " << sum << std::endl;
+
+return 0;
 }
