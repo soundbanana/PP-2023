@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/notsoundbanana/Developer/PP-2023/02-task/collapse'
+relocations:
+  - { offsetInCU: 0xD5, offset: 0xD5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E04, symSize: 0x34 }
+  - { offsetInCU: 0xA24, offset: 0xA24, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E04, symSize: 0x34 }
+  - { offsetInCU: 0xA2C, offset: 0xA2C, size: 0x8, addend: 0x0, symName: _main._omp_fn.0, symObjAddr: 0x34, symBinAddr: 0x100003E38, symSize: 0xE8 }
+  - { offsetInCU: 0xA72, offset: 0xA72, size: 0x8, addend: 0x0, symName: _main._omp_fn.0, symObjAddr: 0x34, symBinAddr: 0x100003E38, symSize: 0xE8 }
+...
